@@ -1,0 +1,112 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tieude {
+    background-color: #CCFFE5;
+    padding: 8px;
+    margin-bottom: 25px;
+    margin-top: -6px;
+}
+
+.doan {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-flow: column wrap;
+    width: 15%;
+    border-right: 2px solid #CCCCCC; /* Đường kẻ dọc màu xám */
+    height: 100vh; /* Chiều cao bằng toàn bộ màn hình */
+    background-color: white; /* Màu nền */
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1); /* Hiệu ứng nổi lên */
+    z-index: 1; /* Đảm bảo .left nằm trên */
+    margin-top: -20px;
+}
+
+.quanli {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #CCCCCC; /* Đường kẻ ngang */
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.quanli img {
+    width: 56px;
+    height: 56px;
+}
+
+.quanli span {
+    font-size: 17px;
+    opacity: 50%;
+}
+
+.quanli h2 {
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.quanli > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.listselect {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.listselect img {
+    width: 20px;
+    height: 20px;
+}
+
+.listselect {
+    display: flex;
+    flex-direction: row;
+    margin-top: -20px;
+    padding-left: 20px;
+}
+
+.listselect img {
+    margin-right: 15px;
+}
+
+.listselect a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.listselect .trangchu {
+    width: 100%;
+    margin-top: 47px;
+}
+
+
+.listselect > div:hover {
+    background-color: rgba(0, 123, 255, 0.3); /* Màu xanh dương đậm hơn */
+    border-radius: 8px; /* Bo góc rõ hơn */
+    transition: background-color 0.3s ease; /* Hiệu ứng mượt mà */
+}
+
+.dangxuat {
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+
+.right {
+    width: 85%; /* Phần bên phải chiếm 85% chiều rộng */
+    background-color: rgb(240, 247, 250); /* Màu nền bạn muốn */
+    height: 100vh; /* Chiều cao bằng toàn bộ màn hình */
+    margin-top: -25px;
+}
